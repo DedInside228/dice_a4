@@ -8,11 +8,11 @@
 
     <ImageView
         android:id="@+id/sound1"
-        android:layout_width="194dp"
-        android:layout_height="200dp"
+        android:layout_width="205dp"
+        android:layout_height="205dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.009"
+        app:layout_constraintHorizontal_bias="0.004"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -21,11 +21,11 @@
 
     <ImageView
         android:id="@+id/sound2"
-        android:layout_width="209dp"
-        android:layout_height="198dp"
+        android:layout_width="205dp"
+        android:layout_height="205dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintHorizontal_bias="0.995"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -34,53 +34,53 @@
 
     <ImageView
         android:id="@+id/sound3"
-        android:layout_width="194dp"
-        android:layout_height="183dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.009"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.374"
-        app:srcCompat="@drawable/three"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/sound4"
-        android:layout_width="214dp"
-        android:layout_height="184dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.994"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.374"
-        app:srcCompat="@drawable/four"
-        tools:ignore="MissingConstraints" />
-
-    <ImageView
-        android:id="@+id/sound5"
-        android:layout_width="200dp"
-        android:layout_height="182dp"
+        android:layout_width="205dp"
+        android:layout_height="205dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.706"
-        app:srcCompat="@drawable/five"
+        app:layout_constraintVertical_bias="0.389"
+        app:srcCompat="@drawable/three"
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/sound6"
-        android:layout_width="209dp"
-        android:layout_height="180dp"
+        android:id="@+id/sound4"
+        android:layout_width="205dp"
+        android:layout_height="205dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.995"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.704"
+        app:layout_constraintVertical_bias="0.389"
+        app:srcCompat="@drawable/four"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/sound5"
+        android:layout_width="205dp"
+        android:layout_height="205dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779"
+        app:srcCompat="@drawable/five"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/sound6"
+        android:layout_width="205dp"
+        android:layout_height="205dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779"
         app:srcCompat="@drawable/six"
         tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
